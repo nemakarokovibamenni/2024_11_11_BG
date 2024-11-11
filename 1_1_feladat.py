@@ -6,10 +6,31 @@ egészen addig, amíg az ENTER-t nem üt (nem ad meg újabb nevet a bekérésné
 
 nevek = []
 folytat = True
-while folytat:
-    nev = input('Kérlek adj meg egy keresztnevet: ')
-    if nev == "":
-        break 
+def a():
+    while folytat:
+        print(len(nevek))
+        if len(nevek) >= 2:
+            folytat = False
+        nev = input('Kérlek adj meg egy keresztnevet: ')
+        if nev == '':
+            folytat = False
+        nevek.append(nev)
+
+    print(nevek)
+
+
+
+
+
+def b():
+   for i in range(3):
+    nev= input('Kérlek adj meg egy keresztnevet: ')
+    if nev == '':
+        break
     nevek.append(nev)
 
-print(nevek)
+    print(nevek)
+
+
+#a()
+b()
