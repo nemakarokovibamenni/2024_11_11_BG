@@ -20,7 +20,7 @@ def main():
         if szo[0].lower() == 'a':
             szavak.append(szo)
         else:
-            print(f"A '{szo}' nem kezdődik 'a'-val!")
+            print(f"A '{szo}' nem kezdődik 'a'-val, figyelmen kívül hagyva!")
 
     print("\nA tárolt szavak:")
     for szo in szavak:
@@ -29,3 +29,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+
+

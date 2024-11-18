@@ -1,4 +1,4 @@
-nyelvek = ['Python', 'GO', 'C', 'C++', 'Java', 'Python', 'HTML']
+nyelvek = ['Python', 'GO', 'C', 'C++', 'Java', 'Python', 'CSS', 'HTML']
 print(nyelvek)
 # eltávolítja a legutolsó elemet, és azzal tér vissza
 # itt például a törölt értéket a 'torolt_nyelv' fogja tartalmazni
